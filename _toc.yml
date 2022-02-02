@@ -1,0 +1,35 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+parts:
+  - caption: Весна
+    chapters:
+      - file: seasons/spring/spring.md
+      - file: seasons/spring/spring_months.md
+        sections:
+        - file: seasons/spring/march.md
+        - file: seasons/spring/april.md
+        - file: seasons/spring/may.md
+      - file: seasons/spring/aknowledgments.md
+  - caption: Лето
+    chapters:
+    - file: seasons/summer/info.md
+    - file: seasons/summer/june.md
+    - file: seasons/summer/july.md
+    - file: seasons/summer/august.md
+    - file: seasons/summer/aknowledgments.md
+  - caption: Осень
+    maxdepth: 0
+    chapters:
+    - file: seasons/autumn/september.md
+    - file: seasons/autumn/october.md
+    - file: seasons/autumn/november.md
+  - caption: Зима
+    chapters:
+    - file: seasons/winter/december.md
+    - file: seasons/winter/january.md
+    - file: seasons/winter/february.md
